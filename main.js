@@ -1,43 +1,30 @@
-function test(input){
-    var a = input; //input to defined var
+function test(input){ //change arg to "input"
+    var scores = input; //input to defined var
     //-------------write code below
-    var result = 0;
-    
-    var dic = [];
-    
-    var alen = 0;
-    a.forEach(element=>{
-        var tmp = dic.includes(element);
-        if (!tmp){dic.push(element)}
-        alen++;
+    var result = [];
+    var broke_up = 0;
+    var broke_down = 0;
+    var max_score = scores[0];
+    var min_score = scores[0];
+    scores.forEach(score=>{
+        if(score>max_score){broke_up++;max_score=score}
+        if(score<min_score){broke_down++;min_score=score}
     })
-    
-    dic.forEach(element=>{
-        var p1 = 0;
-        var p2 = 0;
-        for(let i=0; i<alen; i++){
-            if(a[i] == element){
-                if(p1 == 0){p1=i+1}
-                else {p2=i+1}
-            }
-        }
-        if (p2!==0){
-            if (result==0){result = p2-p1}
-            else {result = Math.min(result, p2-p1)}
-        }
-    })
-    if(result ==0){result=-1}
-    
+    result[0] = broke_up;
+    result[1] = broke_down;
     return result;
 }
 
 function main(input_text) {
     //var input = input_text; // as text to text
     var input = input_text.split(" "); //as "1 2 3" to array
-    //var result = input;
+    //var bill = [3, 10, 2, 9];
+    //var k = 1;
+    //var b = 12;
 
     var result = test(input);
-    
+    //var result = test(bill, k, b);
+
     console.log(result);
     //alert(result);
     //document.write(result);
