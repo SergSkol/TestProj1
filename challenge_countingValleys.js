@@ -22,10 +22,8 @@ function countingValleys(steps, path) {
 
 function run_countingValleys(input) {
     var input_str_array = input.split("");
-    var input_len = 0;
-    input_str_array.forEach(c => input_len++);
 
-    var result = countingValleys(input_len, input);
+    var result = countingValleys(input.length, input);
 
     console.log(result);
     document.getElementById('result').innerHTML = input+" : "+result;

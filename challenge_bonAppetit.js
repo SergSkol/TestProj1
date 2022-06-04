@@ -1,11 +1,8 @@
 function bonAppetit(bill, k, b) {
     // https://www.hackerrank.com/challenges/bon-appetit
     var res = "";
-    var bill_len = 0;//bill.lenght;
-    bill.forEach(element=>{bill_len++});
-
     var a_sum = 0;
-    for(let i = 0; i < bill_len; i++){
+    for(let i = 0; i < bill.length; i++){
         if(i !== k){a_sum = a_sum + bill[i]}
     }
     var diff = b - a_sum/2;
