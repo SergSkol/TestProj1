@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
             "type": "pwa-node",
             "request": "launch",
             "name": "Launch Program",
