@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                font-size:large;
+            }
+            .button_blue {
+                background-color: blue;
+                color: white;
+            }
+            .button_blue:hover {
+                background-color: steelblue;
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <h1>The Element Object</h1>
+        <h2>The addEventListener() Method</h2>
+        <p>Execute a function when a user clicks on a button:</p>
+        <button class="button button_blue" id="myBtn">Try it</button>
+        <p id="response">
+        <footer></footer>
+
+        <script>
+            const element = document.getElementById("myBtn");
+            element.addEventListener("click", displayResponse);
+    
+            function displayResponse(event) {
+                event.preventDefault();
+                document.getElementById("response").innerHTML = "Hello World";
+            }
+        </script>
+    </body>
+</html>

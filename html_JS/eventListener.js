@@ -12,4 +12,14 @@ submit.addEventListener('click', displayResponse);
 function displayResponse(event){
     event.preventDefault();
     responseField.value = " result";
+
+//
+}
+
+var btn = document.getElementById('btn');
+
+/* This sets the action to perform on a click event */
+btn.onclick = function() {
+    /* This changes the button's label */
+    btn.innerHTML++;
 }
