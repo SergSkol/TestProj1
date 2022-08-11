@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch denseRanking",
+            "request": "launch",
+            "mainClass": "jCode.denseRanking",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch magicSquare",
+            "request": "launch",
+            "mainClass": "jCode.magicSquare",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringToList",
+            "request": "launch",
+            "mainClass": "jCode.stringToList",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "jCode.test2",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch brackets",
+            "request": "launch",
+            "mainClass": "jCode.brackets",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "jCode.Solution",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch myTest1",
+            "request": "launch",
+            "mainClass": "jCode.myTest1",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "jCode.test1",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch myTest1",
+            "request": "launch",
+            "mainClass": "javaCode.myTest1",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "javaCode.test1",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "javaCode.test2",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "java.test2",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "java.test1",
+            "projectName": "TestProj1_4c411e02"
+        },
+        {
+            "type": "java",
             "name": "Launch test2",
             "request": "launch",
             "mainClass": "test2",

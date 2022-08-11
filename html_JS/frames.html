@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FRAME</title>
+</head>
+<body>
+    <div>
+        <form>
+            <input class="input" id="input" type="text" value="youtube.com">
+            <button class="button" id="submit">submit</button>
+        </form>
+    </div>
+    <div>
+        <label for="output">The URL is: </label><output type="textbox" id="responseField"></output>
+    </div>
+
+    <iframe id="frame" width="560" height="315" 
+        src="https://www.youtube.com/embed/ggbnzRY9z8w" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <script type="text/javascript" src="./frames.js"></script>
+</body>
+</html>

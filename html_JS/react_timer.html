@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>testing React</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="app"></div>
+
+    <script type="text/babel">
+        
+        class Clock extends React.Component {
+            constructor(props) {
+              super(props);
+              this.state = { date: new Date() };
+            }
+
+            render() {
+              return <div>{this.state.date.toLocaleTimeString()}</div>;
+            }
+
+            componentDidMount() {
+              const oneSecond = 1000;
+              this.intervalID = setInterval(() => {
+                this.setState({ date: new Date() });
+              }, oneSecond);
+            }
+
+            componentWillUnmount() {
+                clearInterval(this.intervalID);
+            }
+        }
+        
+        ReactDOM.render(<Clock />, document.getElementById("app"));
+
+    </script>
+
+  </body>
+</html>

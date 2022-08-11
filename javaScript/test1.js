@@ -1,17 +1,4 @@
-const http = require('http');
-
-// Creates server instance
-const server = http.createServer((req, res) => {
-  // Write server code here  
-  const { method } = req;
- 
-  switch(method) {
-    case 'GET':
-      const handleGetRequest = (req, res) => {
-        const { pathname } = new URL(req.url);
-        if (pathname === '/users'){
-        }
-      };
-      handleGetRequest(req, res);
-  }  
-});
+let x = 1;
+let y = 2;
+let z = x<y ? 10:12
+console.log(z);

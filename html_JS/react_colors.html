@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>testing React</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="app"></div>
+
+    <script type="text/babel">
+        
+        const green = "#39D1B4";
+        const yellow = "#FFD712";
+        
+        class Toggle extends React.Component {
+          constructor(props) {
+            super(props);
+            this.state = { color: green };
+            this.changeColor = this.changeColor.bind(this);
+          }
+          changeColor() {
+            const newColor = this.state.color == green ? yellow : green;
+            this.setState({ color: newColor });
+          }
+        
+          render() {
+            return (
+              <div style={{ background: this.state.color }}>
+                <h1> Change color</h1>
+                <button onClick={this.changeColor}> Change color </button>
+              </div>
+            );
+          }
+        }
+        
+        ReactDOM.render(<Toggle />, document.getElementById("app"));
+
+    </script>
+
+  </body>
+</html>
