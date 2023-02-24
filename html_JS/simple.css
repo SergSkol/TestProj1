@@ -1,0 +1,24 @@
+p {
+  background-color: orange;
+}
+
+p {
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item1 {
+  font-size: 44px;
+}
+
+.item2 {
+  font-size: 66px;
+}
+
+.item3 {
+  font-size: 88px;
+}
