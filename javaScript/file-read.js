@@ -19,14 +19,14 @@ let readDataCallback = (err, data) => {
   }
 };
  
-fs.readFile('./data.txt', 'utf-8', readDataCallback);
+fs.readFile('./file-data.txt', 'utf-8', readDataCallback);
 
 //read stream
 //const fs = require('fs');
 const readline = require('readline');
  
 const myInterface = readline.createInterface({
-  input: fs.createReadStream('./data.txt')
+  input: fs.createReadStream('./file-data.txt')
 });
 
 const printData = (data) => {

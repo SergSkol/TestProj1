@@ -3,10 +3,10 @@ const fs = require('fs');
 const readline = require('readline');
 
 const myInterface = readline.createInterface({
-  input: fs.createReadStream('data.txt')
+  input: fs.createReadStream('file-data.txt')
 });
 
-const fileStream = fs.createWriteStream('output.txt');
+const fileStream = fs.createWriteStream('file-output.txt');
 
 const transformData = (line)=>{
   fileStream.write(`They were out of: ${line}\n`); 

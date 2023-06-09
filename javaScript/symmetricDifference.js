@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-the-difference-of-two-arrays/
+
 function symmetricDifference(arr1, arr2) {
   const result = [];
 

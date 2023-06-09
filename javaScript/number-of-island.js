@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/number-of-islands/
+
 function getNumberOfIslands(binaryMatrix) {
   const matrix_x = binaryMatrix.length;
   const matrix_y = binaryMatrix[0].length;

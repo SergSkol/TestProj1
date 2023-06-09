@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-the-difference-of-two-arrays/
+
 const diff = (arr1, arr2) => {
   const res = []
   for (let i=0; i<arr1.length;i+=1) {

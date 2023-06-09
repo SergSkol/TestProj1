@@ -1,5 +1,6 @@
+//https://www.hackerrank.com/challenges/sock-Merchant/problem
+
 function sockMerchant(n, ar){
-    //https://www.hackerrank.com/challenges/sock-Merchant/problem
     var ncol = 0;
     var npairs = 0;
     var prevs = null;

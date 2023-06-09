@@ -1,5 +1,6 @@
+//https://www.hackerrank.com/challenges/grading/problem
+
 function gradingStudents(grades){
-    //https://www.hackerrank.com/challenges/grading/problem
     var gradingStudents = [];
     grades.forEach((g) =>{
         if (g >= 38) {
