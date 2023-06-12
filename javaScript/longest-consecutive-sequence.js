@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/longest-consecutive-sequence/
 /**
  * @param {number[]} nums
  * @return {number}
