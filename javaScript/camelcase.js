@@ -1,5 +1,4 @@
 // https://www.hackerrank.com/challenges/camelcase/problem
-
 function camelcase(s) {
   // Write your code here
   const len = s.length;

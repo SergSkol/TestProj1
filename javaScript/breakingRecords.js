@@ -1,5 +1,5 @@
+// https://www.hackerrank.com/challenges/breaking-best-and-worst-records
 function breakingRecords(scores){
-    // https://www.hackerrank.com/challenges/breaking-best-and-worst-records
     var result = [];
     var broke_up = 0;
     var broke_down = 0;

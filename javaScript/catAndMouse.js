@@ -1,5 +1,5 @@
+// https://www.hackerrank.com/challenges/cats-and-a-mouse
 function catAndMouse(x, y, z) {
-    // https://www.hackerrank.com/challenges/cats-and-a-mouse
     var xz = Math.abs(x-z);
     var yz = Math.abs(y-z);
     var res = "";
