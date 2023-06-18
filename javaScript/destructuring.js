@@ -4,6 +4,7 @@ const person = {
   hobby:['sport','movies']
 }
 
+// destructuring:
 const {fullname, age, hobby} = person;
 
 console.log(fullname);
