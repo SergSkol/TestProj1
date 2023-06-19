@@ -1,5 +1,5 @@
-function countingValleys(steps, path) {
     // https://www.hackerrank.com/challenges/counting-Valleys/problem
+function countingValleys(steps, path) {
     var level = 0;
     var nVal = 0;
     var inVal = 0;
