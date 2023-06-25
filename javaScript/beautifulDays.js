@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/beautiful-days-at-the-movies
+//
 function beautifulDays(i, j, k){
     var days = 0;
     for (let day = i; day <= j; day++){
