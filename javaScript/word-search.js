@@ -1,9 +1,9 @@
 // https://leetcode.com/problems/word-search/
-/**
- * @param {character[][]} board
- * @param {string} word
- * @return {boolean}
- */
+
+//  * @param {character[][]} board
+//  * @param {string} word
+//  * @return {boolean}
+
 var exist = function(board, word) {
   const onBoard = (n, m) => {
       if (n < 0 || n >= board.length || m < 0 || m >= board[0].length) {
