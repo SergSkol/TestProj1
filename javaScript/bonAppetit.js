@@ -1,4 +1,5 @@
 // https://www.hackerrank.com/challenges/bon-appetit
+//
 function bonAppetit(bill, k, b) {
     var res = "";
     var a_sum = 0;
