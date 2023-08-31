@@ -1,6 +1,7 @@
 // https://www.hackerrank.com/challenges/3d-surface-area/problem
 // * The function is expected to return an INTEGER.
 //  * The function accepts 2D_INTEGER_ARRAY A as parameter.
+//
 function surfaceArea(A) {
   // calculate positive difference between two arrays, 
   // a2 = [0,1,2] and a1 = [1,1,1], dif = (0-1) + (1-1) + (2-1) = 1 
