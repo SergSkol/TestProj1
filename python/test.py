@@ -1,6 +1,12 @@
 # simple print
 print('Hello world')
 
+s = "7a"
+try :
+  print(int(s))
+except :
+  print("Wrong string to convert to int")
+
 #trigger
 x = 10
 if x > 5 :

@@ -32,6 +32,8 @@ print("The first score is ", score1)
 print("Summary: ", summ)
 print("Poster: ", img_file)
 
-urllib.request.urlretrieve(img_file, "image.png")
-img = Image.open("image.png")
+IMAGE_LOCAL_PATH = "python/api-json-image.png"
+
+urllib.request.urlretrieve(img_file, IMAGE_LOCAL_PATH)
+img = Image.open(IMAGE_LOCAL_PATH)
 img.show()
