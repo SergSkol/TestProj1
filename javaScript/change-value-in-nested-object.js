@@ -1,4 +1,4 @@
-const bookingGQLResponse = {
+let bookingGQLResponse = {
     getBookingByID: {
       id: '65a8df3dab4fd4a2a913122d',
       actingAccount: 'cfd7496b-33ec-4347-9c78-a61610a1dc7a',
