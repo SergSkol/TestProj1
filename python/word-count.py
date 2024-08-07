@@ -1,6 +1,6 @@
 #read from file
 wordArray = list()
-fileName = "C:/Code/Git commands.txt"
+fileName = "C:/Code/test.txt"
 try :
   file = open(fileName)
 except :
