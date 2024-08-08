@@ -13,8 +13,8 @@ class Test
 end
 
 a = []
-a.push(Test.new("TTT", "AAA"))
-a.push(Test.new("NNN", "MMM"))
+a.push(Test.new("Title 1", "Author 1"))
+a.push(Test.new("Kobzar", "Taras Shev"))
 
 b = []
 a.each do |e|
