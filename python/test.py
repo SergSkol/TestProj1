@@ -25,11 +25,11 @@ myList.sort()
 print(myList)
 
 #read from file
-fileName = "C:/Code/Git commands.txt"
+fileName = "C:/Code/test.txt"
 file = open(fileName)
 for line in file :
   strippedLine = line.strip()
-  # print(strippedLine)
+  print(strippedLine)
 
 # dict
 counts = dict()

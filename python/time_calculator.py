@@ -17,7 +17,7 @@ def add_time(start, duration, day_of_week = ""):
     index = days.index(formatted_day)
     index = (index + add_days) % 7
     
-    # print("index = ", index)
+    # print("index = ", index) # debug
     
     return days[index]
   
@@ -80,8 +80,8 @@ def add_time(start, duration, day_of_week = ""):
   if days != "" :
     new_time += " " + days
   
-  # print(start_h, start_m, dur_h, dur_m)
-  # print(new_h, new_m, days)
+  # print(start_h, start_m, dur_h, dur_m) # debug
+  # print(new_h, new_m, days) # debug
 
   return new_time
 
